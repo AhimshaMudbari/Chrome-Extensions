@@ -1,0 +1,38 @@
+* {
+  color: azure;
+  background: black;
+}
+body {
+  height: 10rem;
+  width: 20rem;
+}
+
+.main_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.btn_color {
+  height: 2rem;
+  width: 10rem;
+  border-radius: 5px;
+  background-color: rgb(40, 38, 38);
+  cursor: pointer;
+  border: 1.5px solid green;
+}
+.selected_color {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.color_grid {
+  height: 10px;
+  width: 10px;
+}
+.color_value {
+  margin-left: 5px;
+}
