@@ -10,12 +10,16 @@
         "scripting",
         "activeTab",
         "storage",
-        "<all_urls>"
+        "tabs",
+        "nativeMessaging"
     ],
+    "background": {
+        "service_worker": "background.js"
+    },
     "content_scripts": [
         {
             "matches": [
-                "<all_urls>"
+                "https://*/*"
             ],
             "js": [
                 "contentScript.js"
